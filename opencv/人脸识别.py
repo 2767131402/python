@@ -1,7 +1,8 @@
-import requests
-from json import JSONDecoder
-import cv2
 import time
+from json import JSONDecoder
+
+import cv2
+import requests
 
 t1 = time.time()
 http_url = "https://api-cn.faceplusplus.com/facepp/v3/detect"
